@@ -151,25 +151,55 @@ p {
 #skills li h4 {
   text-align: center;
   font-weight: 400;
-  color:var(--primary-color);
+  color: var(--primary-color);
 }
 
-#projects{
-  padding:10px 5px;
+#projects {
+  padding: 10px 5px;
 }
-#projects h3{
+/* #projects h3 {
+  margin: 0;
+  text-align: center;
+  color: var(--heading-color);
+  font-weight: bold;
+} */
+#projects >h3{
   margin: 0;
   text-align: center;
   color: var(--heading-color);
   font-weight: bold;
 }
-.project-info{
-  margin:10px 0;
+.project-info {
+  margin: 10px 0;
 }
-.project-info .card{
-  grid-column:1/11;
-  margin:20px 30px;
+.project-info .card {
+  grid-column: 1/11;
+  margin: 20px 10px;
 }
+.project-info .card .project{
+  text-align: center;
+  font-weight: 400;
+  color: var(--primary-color);
+
+}
+.card img{
+  width:100%;
+}
+.card .access-links{
+  display:flex;
+  justify-content: space-around;
+  margin:10px 100px;
+  border:1px solid yellow;
+  border-radius:5px;
+}
+
+
+
+
+
+
+
+
 
 /* Small tabs responsive styles*/
 
