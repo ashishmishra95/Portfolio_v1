@@ -96,20 +96,20 @@ p {
   margin: 10px 30px;
 }
 .welcome-text h1 {
-  font-size: 4rem;
-  padding: 5px 15px;
+  font-size: 3.5rem;
+  padding: 5px 30px;
   line-height: 3.5rem;
 }
 .welcome-text h2 {
-  padding: 5px 15px;
-  font-size: 3.5rem;
-  line-height: 3.9rem;
+  padding: 5px 30px;
+  font-size: 2.5rem;
+  line-height: 3.2rem;
 }
 .welcome-text p {
-  padding: 5px 15px;
+  padding: 5px 30px;
   line-height: 1.5rem;
   font-weight: 500;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   color: var(--primary-color);
 }
 #about {
@@ -122,6 +122,7 @@ p {
 .brief-introduction .short-intro {
   color: var(--primary-color);
   font-weight: 500;
+  padding: 5px 15px;
 }
 .profile-photo {
   display: none;
@@ -135,8 +136,39 @@ p {
   color: var(--heading-color);
   font-weight: bold;
 }
-.technologies {
-  grid-column: ;
+#skills ul {
+  margin: 20px 0;
+}
+#skills li {
+  padding: 10px 0;
+  grid-column: span 5;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+}
+#skills img {
+  margin: 0 15px;
+}
+#skills li h4 {
+  text-align: center;
+  font-weight: 400;
+  color:var(--primary-color);
+}
+
+#projects{
+  padding:10px 5px;
+}
+#projects h3{
+  margin: 0;
+  text-align: center;
+  color: var(--heading-color);
+  font-weight: bold;
+}
+.project-info{
+  margin:10px 0;
+}
+.project-info .card{
+  grid-column:1/11;
+  margin:20px 30px;
 }
 
 /* Small tabs responsive styles*/
