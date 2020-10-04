@@ -175,10 +175,14 @@ p {
 .project-info .card {
   grid-column: 1/11;
   margin: 20px 10px;
-  background-color: rgba(0, 0, 0, 0.5);
-  box-shadow: 0 5px 5px #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px#fff;
   border-radius: 5px;
 }
+.project-info .card:hover {
+  border: 1px solid var(--primary-color);
+}
+
 .project-info .card .project {
   text-align: center;
   font-weight: 400;
@@ -209,6 +213,7 @@ p {
 #contact p {
   padding: 5px 30px;
   line-height: 1.5rem;
+  text-align: center;
   font-weight: 500;
   margin-top: 1rem;
   color: var(--primary-color);
@@ -253,6 +258,18 @@ button > a {
   grid-column: span 11;
   padding: 5px 0;
 }
+.social-tags > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+.social-tags ul > li {
+  display: block;
+}
+.svg-properties {
+  stroke: var(--primary-color);
+  font-size: 1.5rem;
+}
 
 /* .credits {
   grid-row: 2/3;
@@ -279,7 +296,7 @@ button > a {
 .credits .credit a {
   text-decoration: none;
   color: lightseagreen;
-  font-size: 0rem;
+  font-size: 0 rem;
   /* font-weight: 500; */
 }
 
